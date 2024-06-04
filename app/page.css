@@ -1,3 +1,7 @@
+
+
+
+/* stlyes for all the elements in the header section */
 .header{
   display: grid;
   /* background-color: cyan; */
@@ -29,6 +33,7 @@
   padding: 12px 20px;
   align-self: center;
   justify-content: left;
+  grid-gap: 12px;
   
 
 }
@@ -40,8 +45,9 @@
   outline: none;
   border: none;
   width: 300px;
-
 }
+
+
 
 
 .header-menubar{
@@ -68,8 +74,7 @@
   padding: 12px 20px;
   color: #FFFFFF;
   outline: none;
-  border: none
-  ;
+  border: none;
 }
 
 
@@ -79,8 +84,146 @@
 
 }
 
+/* SECOND SECTION OF THE PAGE(with the three paragraphs) */
+
+.music-auctions{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 15px;
+}
 
 
+
+
+/* THIRD SECTION OF THE PAGE WITH ALL THE PRODUCTS */
+  
+
+.products-section1{
+  
+  display: grid;
+  grid-auto-flow: column;
+  justify-content:space-evenly;
+  
+}
+
+.section1{
+  /* background-color: cyan; */
+  display: grid;
+  grid-auto-flow: row;
+  width: 300px;
+  box-shadow: 0px 5px 13px 0px #006AE508;
+  padding: 5px;
+
+  
+
+}
+
+
+/* FIRST PRODUCT */
+.created-owned{ 
+ 
+  display: grid;
+  grid-auto-flow: column;
+
+}
+
+
+.created-user{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 7px;
+  
+}
+
+.created-owned-tags{
+  color: #9FA1A6;
+}
+
+.created-owned-snos{
+  color: #293341;
+  ;
+}
+
+
+.section1-prod-image{
+  place-self: center;
+}
+
+.section1-prod-name{
+  display: grid;
+  font-weight: bold;
+}
+
+
+.current-bid{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  
+}
+
+.prod-cost{
+  color: #465364;
+}
+  
+.prod-time{
+  color: #FE7676 ;
+}
+
+.placebid > button{
+  background-color: #1A79E8;
+  border-radius: 50px;
+  width: 125px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+.bid-ending{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+
+.section-history{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.section-end{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.owned-user{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 7px;
+  direction: rtl;
+}
+
+
+
+
+
+
+
+/* MOBILE VIEW */
 
 @media only screen and (max-width: 600px) {
   
