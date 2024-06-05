@@ -27,9 +27,13 @@ export const Hero = () => {
 
 
     {/* FIRST ROW OF PRODUCTS */}
-    <div className="products-sectionone">
+    <div className="products-section1">
       
       
+
+    
+
+
       {/* FIRST PRODUCT SECTION */}
       
       <div className="section1">
@@ -282,7 +286,7 @@ export const Hero = () => {
 
     {/* SECOND ROW OF PRODUCTS */}
 
-    <div className="products-sectionone">
+    <div className="products-section1">
       
       
       {/* FIRST PRODUCT SECTION */}

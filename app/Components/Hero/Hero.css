@@ -25,7 +25,7 @@
   /* THIRD SECTION OF THE PAGE WITH ALL THE PRODUCTS */
     
   
-  .products-sectionone{
+  .products-section1{
     
     display: grid;
     grid-auto-flow: column;
@@ -180,4 +180,17 @@
   }
   
   
-  
+  @media only screen and (max-width: 600px){
+    .products-section1{
+      display: grid;
+      grid-auto-flow: row;
+      row-gap: 100px;
+    }
+    
+
+    .musicCollectibles{
+      display: grid;
+      row-gap: 20px;
+    }
+
+  }
