@@ -7,9 +7,9 @@ export const Footer = () => {
     <div className='footer-items'>
         <div className='top-footer'>
             <div className='logo-links'>
-            
-                <img src='/images/site-logo.png'/>
-                
+                <div className='site-logo-img'>
+                    <img src='/images/site-logo.png'/>
+                </div>
                 <div className='links'>
                     <img src='/images/facebook.svg'/>
                     <img src='/images/linkedin.svg'/>

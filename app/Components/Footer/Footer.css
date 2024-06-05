@@ -2,7 +2,6 @@
     display: grid;
     grid-auto-flow: row;
     row-gap: 10px;
-    letter-spacing: 1px;
     padding-top: 150px;
     padding-bottom: 50px;
     
@@ -17,7 +16,7 @@
     grid-auto-flow: column;
     justify-content: space-between;
     align-items: center;
-    
+    color: #293341;
     padding-right: 20px;
     
 }
@@ -57,4 +56,45 @@
     padding-left: 20px;
     padding-right: 20px;
     word-spacing: 5px;
+    color: #465364;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .top-footer{
+        display: grid;
+         grid-auto-flow: row;
+         padding-bottom: 50px;
+         row-gap: 20px;
+         
+    }
+
+
+    .site-logo-img{
+        justify-self:end;
+    }
+
+    .logo-links{
+        display: grid;
+        grid-auto-flow: row;
+        padding-right: 10px;
+        column-gap: 25px;
+        padding-bottom: 35px;
+    }
+    .termsofservice{
+        padding-left: 50px;
+    }
+
+    .bottom-footer{
+        display: grid;
+         grid-auto-flow: row;
+         row-gap: 10px;
+    }
+    
+    .links{
+        justify-content: center;
+    }
+   
 }
