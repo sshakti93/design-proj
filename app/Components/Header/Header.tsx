@@ -33,7 +33,7 @@ export const Header = () => {
     </div>
 
     <div className="header-controlbar">
-      <button>Collectibles</button>
+      <button>0 Collectibles</button>
       <img src="/images/Ellipse 5.svg"/>
     </div>
    
