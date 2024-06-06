@@ -1,0 +1,175 @@
+.image-and-expand{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 100px;
+
+}
+
+.circlearchi-img{
+    display: grid;
+    padding-left: 470px;
+}
+
+.expand-img{
+    display: grid;
+    padding-top: 345px;
+    padding-left: 300px;
+}
+
+
+.prod-details{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 200px;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+
+/* left side of the product details */
+
+
+
+.left-prod-details{
+    display: grid;
+    /* padding: 0 0 0 0; */
+    padding-top: 100px;
+    padding-left: 50px;
+    /* padding-right: 400px; */
+    box-shadow: 0px 5px 13px 0px #006AE508;
+
+    box-shadow: 0px -5px 30px 0px #006AE505;
+
+}
+
+
+.prod-name{
+    display: grid;
+
+    padding-top: 50px;
+    /* padding-left: 50px; */
+    padding-bottom: 75px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.description{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 30px;
+    padding-bottom: 60px;
+}
+
+.desc-title{
+    font-size: x-large;
+}
+
+
+.prod-history{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 50px;
+}
+
+.history-view{
+    display: grid;
+    grid-auto-flow: column;
+    color: #293341;
+    justify-content: space-between;
+}
+
+.history-word{
+    font-weight: bolder;
+}
+
+
+
+.last-ownedby{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+
+.left-last-ownedby{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 7px;
+    
+  }
+
+  .ownedby-section{
+    display: grid;
+    row-gap: 5px;
+  }
+
+  .ownedby-tag{
+    color: #465364;
+  }
+
+  .ownedby-sno{
+    font-weight: bolder;
+    color: #293341;
+  }
+
+
+  .right-last-ownedby{
+    display: grid;
+    grid-auto-flow: row;
+    text-align: right;
+  }
+
+  .price-word-hist{
+    color: #465364;
+  }
+
+  .price-detail-hist{
+    display: grid;
+    grid-auto-flow: column;
+    
+  }
+  .nft-currency{
+    padding-left: 300px;
+  }
+
+/* right side of the product details */
+
+
+  .right-prod-details{
+    display: grid;
+    grid-auto-flow: row;
+    padding-top: 200px;
+    
+    
+  }
+
+  .bids{
+    display: grid;
+    grid-auto-flow: column;
+    color: #465364;
+  }
+
+  .bid-nft-time{
+    display: grid;
+    grid-auto-flow: column;
+  }
+  .bid-value-time{
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  /* .bid-ending{
+    padding-left: 100px;
+  } */
+
+  .bid-time{
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .bid-time-words{
+    display: grid;
+    grid-auto-flow: column;
+  }
