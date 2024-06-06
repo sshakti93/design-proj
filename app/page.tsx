@@ -18,10 +18,10 @@ export default function Home() {
 return(
   <>
   <Header/>
-  <Viewauctions/>
+  {/* <Viewauctions/> */}
   {/* <Search/> */}
   {/* <LoadingCollectibles/> */}
-  {/* <Hero/> */}
+  <Hero/>
   {/* <Circlearchi/> */}
 
   <Footer/>
