@@ -1,4 +1,16 @@
- 
+.music-auctions{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.view-auctions{
+  padding-top: 30px;
+}
+
+
+
   .products-section1{
     
     display: grid;

@@ -3,6 +3,20 @@ import "./Viewauctions.css"
 export default function Viewauctions() {
   return (
     <div>
+
+        {/* Music section at the top */}
+
+        <div className="music-auctions">
+            <div className="musicCollectibles">
+            <h2>Music Collectables</h2>
+            <p>Find, Buy, Sell & Collect your Favourite Music Collectable</p>
+            </div>
+            
+            
+            <div className="view-auctions">
+                <p>View all live auctions</p>
+            </div>
+            </div>
             {/* FIRST ROW OF PRODUCTS */}
         <div className="products-section1">
         
