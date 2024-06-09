@@ -314,3 +314,39 @@
     color: #465364;
 
   }
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .full{
+      display: grid;
+      grid-auto-flow: row;;
+    }
+
+    .image-and-expand{
+      display: grid;
+      grid-auto-flow: row;
+      padding: none;
+     
+    }
+
+    .circlearchi-img{
+      display: grid;
+      padding: none;
+    }
+
+    .expand-img{
+      display: grid;
+      padding: none;
+      justify-self: right;
+    }
+  
+    
+    .prod-details{
+      display: grid;
+      grid-auto-flow: row;
+    }
+  }

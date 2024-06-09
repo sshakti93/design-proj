@@ -3,7 +3,7 @@ import "./Circlearchi.css"
 
 export default function Circlearchi() {
   return (
-    <>
+    <div className='full'>
         {/* PRODUCT IMAGE */}
    
         <div className='image-and-expand'>
@@ -213,7 +213,7 @@ export default function Circlearchi() {
 
         </div>
 
-    </>
+    </div>
 
    
   )
