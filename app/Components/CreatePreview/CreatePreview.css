@@ -1,0 +1,103 @@
+.full{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    column-gap: 160px;
+    
+}
+
+
+
+
+
+
+
+
+.left-create{
+    display: grid;
+    grid-auto-flow: row ;
+    justify-content: center;    
+    row-gap: 20px;
+}
+
+.connect-button > button{
+    
+        background-color: #1A79E8;
+        border-radius: 100px;
+        padding: 12px 20px; 
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+     }
+.create-collectible{
+    color: #293341;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+
+
+.drop-music{
+    font-weight: bold;
+    color: #293341;
+
+}
+
+.support-format{
+    color: #8390A2;
+
+}
+
+
+.right-create{
+    display:grid;
+    grid-auto-flow: row;
+    align-content: flex-start;
+    row-gap: 50px;
+    padding-top: 100px;
+}
+
+.preview{
+    color: #293341;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.preview-banner {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    justify-items: center;
+    color: #8390A2;
+    border: 1.5px dashed;
+    padding: 20px 20px 20px 20px; 
+    
+    border-color: #1A79E8;
+}
+
+.left-bottom-pre{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+}
+
+.preview-name{
+    color: #293341;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.preview-desc{
+    color: 
+    #465364;
+}
+
+.preview-val{
+ color: #293341;
+ font-weight: 600;
+
+}
