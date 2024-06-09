@@ -2,7 +2,7 @@ import React from 'react'
 import "./Search.css"
 export default function Search() {
   return (
-    <div>
+    <div className='full'>
 
         <div className='loading'>
             <p>Loading based on your search ....</p>
