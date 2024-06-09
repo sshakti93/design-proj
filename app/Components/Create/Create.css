@@ -1,0 +1,95 @@
+.full{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+.left-create{
+    display: grid;
+    grid-auto-flow: row ;
+    justify-content: center;    
+    row-gap: 20px;
+}
+
+.connect-button > button{
+    
+        background-color: #1A79E8;
+        border-radius: 100px;
+        padding: 12px 20px; 
+        color: #FFFFFF;
+        outline: none;
+        border: none;
+     }
+.create-collectible{
+    color: #293341;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+
+.upload-box{
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    row-gap: 20px;
+    border: 1.5px dashed;
+    padding: 50px;
+    border-color: #1A79E8;
+}
+
+.drop-music{
+    font-weight: bold;
+    color: #293341;
+
+}
+
+.support-format{
+    color: #8390A2;
+
+}
+
+
+.right-create{
+    display:grid;
+    grid-auto-flow: row;
+    align-content: flex-start;
+    row-gap: 50px;
+    padding-top: 100px;
+}
+
+.preview{
+    color: #293341;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.preview-banner {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    color: #8390A2;
+    border: 1.5px dashed;
+    padding: 250px 50px 250px 50px;
+    
+    border-color: #1A79E8;
+}
+
+@media only screen and (max-width: 600px){
+    .full{
+       
+        grid-auto-flow: row;
+    }
+
+
+    .upload-box{
+        padding: none;
+        width: fit-content;
+    }
+}
