@@ -1,6 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import "./ConnectWallet.css"
+import Link from 'next/link'
+import BidForm from '../BidForm/BidForm'
 export default function ConnectWallet() {
+
+    const [bid,setBid] = useState(false)
+    const buttonClick = () => {
+        setBid(true)
+    }
+
   return (
     <div>
 
@@ -13,13 +22,19 @@ export default function ConnectWallet() {
                 to continue</p>
 
             </div>
-            <div className='connect-button'>
+            
+            <div className='connect-button' onClick={buttonClick}>
                 <button>Connect Wallet</button>
 
             </div>
+            
         </div>
 
-
+    {bid && (
+        <div className="overlay">
+            <BidForm/>
+        </div>
+    )}
 
 
 
