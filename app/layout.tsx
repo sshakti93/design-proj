@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "./Components/Header/page";
+import { Footer } from "./Components/Footer/page";
+import Home from "./page";
 
 
 
@@ -23,7 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header/>
+        {children}
+        <Footer/>
+      </body>
+      
     </html>
   );
 }
