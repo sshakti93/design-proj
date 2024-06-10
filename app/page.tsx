@@ -5,7 +5,7 @@ import "./page.css"
 
 
 import { Header } from "./Components/Header/page";
-import { Footer } from "./Components/Footer/page";
+import { Footer } from "./Components/Footer/Footer";
 import Circlearchi from "./pages/CircleArchiTexture/page";
 import Search from "./pages/Searchpage/page";
 import LoadingCollectibles from "./pages/LoadingCollectibles/page";
