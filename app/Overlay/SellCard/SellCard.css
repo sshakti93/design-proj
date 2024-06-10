@@ -1,0 +1,128 @@
+.fullpage{
+    display: grid;
+    justify-content: center;
+}
+
+
+.full{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    width: fit-content;
+    padding: 40px ;
+}
+
+.first-row{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+    
+}
+
+.prod-end-section{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+}
+
+.current-bid{
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+    column-gap: 30px;
+}
+
+
+.bid-ending{
+display: grid;
+grid-auto-flow: column;
+
+justify-content:space-between ;
+}
+
+.prod-cost{
+    display: grid;
+   
+    color:  #465364;
+
+}
+
+.prod-val{
+    display: grid;
+    padding-left: 25px;
+    color:  #465364;
+}
+
+
+.prod-time{
+    color: #FE7676;
+    
+}
+
+
+.second-row{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+}
+
+.section1-prod-name{
+    color: 
+    #293341;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+
+.wallet{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+}
+.top-wallet{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+    color: #465364;
+
+}
+
+.bottom-wallet{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+}
+
+.enter-details{
+  color: #293341;
+  font-size: large;
+  font-weight: 500;
+
+}
+
+.bid-text{
+color: #465364;
+
+}
+
+.service-fee{
+    color: #465364;
+}
+
+.place-button > button{
+    background-color:  #1A79E8;
+    ;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 125px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.bid-amount{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 10px;
+}
+

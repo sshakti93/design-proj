@@ -1,0 +1,244 @@
+.music-auctions{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .view-auctions{
+    padding-top: 30px;
+  }
+  
+  
+  
+    .products-section1{
+      
+      display: grid;
+      grid-auto-flow: column;
+      justify-content:space-evenly;
+      padding-top: 50px;
+      
+    }
+    
+    .section1{
+      /* background-color: cyan; */
+      display: grid;
+      grid-auto-flow: row;
+      width: 300px;
+      box-shadow: 0px 5px 13px 0px #006AE508;
+  
+      box-shadow: 0px -5px 30px 0px #006AE505;
+  
+      padding: 5px;
+    
+      
+    
+    }
+    
+    
+    /* FIRST PRODUCT */
+    
+    
+    .created-owned{ 
+     
+      display: grid;
+      grid-auto-flow: column;
+     
+    }
+    
+    
+    .line-btw-users{
+      width: 1px;
+      height: 50px;
+      background-color: #F1F4F5;
+    }
+    
+    .created-user{
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 7px;
+      
+    }
+    
+    
+    .user-code {
+      
+      display: grid;
+        row-gap: 5px;
+    }
+    
+    
+    .owned-code{  
+      display: grid;
+      row-gap: 5px;
+    }
+    
+    
+    .created-owned-tags{
+      color: #9FA1A6;
+    }
+    
+    .created-owned-snos{
+      color: #293341;
+      ;
+    }
+    
+    
+    .section1-prod-image{
+      place-self: center;
+      padding: 15px;
+    }
+    
+    .section1-prod-name{
+      display: grid;
+      font-weight: bold;
+      color: #293341;
+      
+    }
+    
+    
+    .current-bid{
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: space-between;
+      
+    }
+    
+    .prod-cost{
+      color: #465364;
+    }
+    
+    
+    .prod-time{
+      color: #FE7676 ;
+    }
+    
+    .placebid > button{
+      background-color: #1A79E8;
+      color: #FFFFFF;
+      border-radius: 50px;
+      width: 125px;
+      height: 40px;
+      outline: none;
+      border: none;
+    }
+    
+    .prod-end-section{
+      display: grid;
+      row-gap: 25px;
+      color: #293341;
+      
+    }
+    
+    
+    
+    .bid-ending{
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: space-between;
+    }
+    
+    
+    .section-history{
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      gap: 7px;
+    }
+    
+    .section-end{
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    
+    .owned-user{
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 7px;
+      direction: rtl;
+    }
+    
+  
+  
+  
+  
+  
+  
+    .view-auctions{
+      display: grid;
+      grid-auto-flow: row;
+      padding-bottom: 100px
+  
+      
+    }
+    
+      
+    .view-auctions > button{
+      color: #293341;
+      
+      border-radius: 100px;
+      padding: 12px 20px; 
+      
+      outline: none;
+      border: none;
+  
+      border: 1px solid #46536480
+    }
+  
+  
+    .building-search{
+      display: grid;
+      grid-auto-flow: row;
+      justify-content: center;
+      justify-items: center;
+      row-gap: 25px;
+      padding-top: 100px;
+    }
+  
+    .building-eco{
+      display: grid;
+      grid-auto-flow: row;
+      text-align: center;
+      font-size: xx-large;
+      font-weight: bold;
+    }
+  
+    .search-music{
+      color:#293341;
+      text-align: center;
+      font-size: larger;
+      
+    }
+  
+  
+    .sell-button > button{
+      background-color: #1A79E8;
+      border-radius: 100px;
+      padding: 12px 20px; 
+      color: #FFFFFF;
+      outline: none;
+      border: none;
+    }
+
+
+    @media only screen and (max-width: 600px){
+      .products-section1{
+        display: grid;
+        grid-auto-flow: row;
+        row-gap: 100px;
+      }
+      
+  
+      .musicCollectibles{
+        display: grid;
+        row-gap: 20px;
+      }
+  
+    }

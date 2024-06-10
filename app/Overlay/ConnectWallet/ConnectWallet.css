@@ -1,0 +1,36 @@
+.connect-wallet{
+    display: grid;
+    grid-auto-flow:row;
+    background-color: #FFFFFF;
+    text-align: center;
+    row-gap: 20px;
+    padding: 20px;
+}
+.connect-text{
+    color: #293341;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.connect-button > button{
+    background-color: #293341;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 125px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}

@@ -18,6 +18,9 @@
  
   
 }
+.header > a{
+  align-content: center;
+}
 
 
 .header-searchbar{
@@ -34,6 +37,8 @@
   
 
 }
+
+
  
 .header-searchbar > input{
   color: #8390A2;

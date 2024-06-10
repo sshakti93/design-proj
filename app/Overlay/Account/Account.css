@@ -1,0 +1,126 @@
+
+.full{
+    display: grid;
+    justify-content: center;
+}
+
+.fullgrid{
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    row-gap: 30px;
+    width:fit-content ;
+    padding: 30px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+.user-detail{
+    display: grid;
+    grid-auto-flow: column;
+   align-items: center;
+   column-gap: 25px;
+
+}
+
+.bal-collect{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 30px;
+
+
+
+}
+
+.bal-top{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 10px;
+
+
+
+
+}
+
+.bal-text{
+    color: #465364;}
+.bal-val{
+    display: grid;
+    grid-auto-flow: column;
+
+
+
+
+}
+
+
+.collectibles{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 10px;
+
+
+
+
+}
+
+
+.collections{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5px;
+
+
+}
+
+.collect-text{
+    color: 
+    #465364;
+}
+
+.collect-no{
+    color: #293341;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.disconnect{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.code{
+    color: #465364;
+    font-weight: 700;
+
+}
+
+
+.nft-curr{
+    color:#293341;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bal-cost{
+    color: #465364;
+}
+
+
+.collections{
+    color: #293341;
+}
+
+.linebtw{
+    display: grid;
+    grid-auto-flow: row;
+    width: auto;
+    
+    border: 0.5px solid #1A79E8
+   
+}

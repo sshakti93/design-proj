@@ -1,0 +1,55 @@
+.fullpage{
+    display: grid;
+    justify-content: center;
+}
+
+
+.full{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+    row-gap: 30px;
+    width: fit-content;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.img{
+    display: grid;
+    justify-content: center;
+}
+
+.congrats{
+    display: grid;
+    justify-content: center;
+    color: #1A79E8;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.uploaded{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: 
+    #465364;
+}
+
+.done-button{
+    display: grid;
+    justify-content: center;
+}
+
+.done-button > button{
+    background-color:  #18B858;
+    
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 330px;
+
+    height: 40px;
+    outline: none;
+    border: none;
+
+}
+
