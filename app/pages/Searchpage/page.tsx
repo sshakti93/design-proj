@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Search.css"
+import Link from 'next/link'
 export default function Search() {
   return (
     <div className='full'>
@@ -11,7 +12,7 @@ export default function Search() {
 
 
 
-
+        <Link href={"/pages/CircleArchiTexture"}>
         <div className="products-section1">
       
       
@@ -52,7 +53,7 @@ export default function Search() {
       </div>
     </div>
 
-
+</Link>
 
 
     </div>
