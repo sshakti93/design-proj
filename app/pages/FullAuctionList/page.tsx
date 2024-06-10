@@ -1,7 +1,7 @@
 import React from 'react'
 import "./FullAuctionList.css"
 import Link from 'next/link'
-
+import Circlearchi from '../CircleArchiTexture/page'
 export default function FullAuctionList() {
   return (
     <div>
@@ -23,7 +23,7 @@ export default function FullAuctionList() {
 
     {/* PRODUCT DETAILS */}
 
-
+    <Link href={"/pages/CircleArchiTexture"}>
     {/* FIRST ROW OF PRODUCTS */}
     <div className="products-section1">
       
@@ -1051,6 +1051,7 @@ export default function FullAuctionList() {
       </div>
       
     </div>
+    </Link>
 
         
     
