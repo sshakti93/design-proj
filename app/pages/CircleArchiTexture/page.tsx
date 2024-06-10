@@ -1,7 +1,16 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import "./Circlearchi.css"
+import ConnectWallet from '@/app/Overlay/ConnectWallet/page'
 
 export default function Circlearchi() {
+
+
+    const [wallet,setWallet] = useState(false)
+    const buttonClick = () => {
+        setWallet(true)
+    }
   return (
     <div className='full'>
         {/* PRODUCT IMAGE */}
@@ -108,7 +117,7 @@ export default function Circlearchi() {
                         
                     </div>
 
-                    <div className='place-bid'>
+                    <div className='place-bid' onClick={buttonClick}>
                         <button>Place your bid now</button>
                     </div>
                 </div>
@@ -212,6 +221,12 @@ export default function Circlearchi() {
             </div>
 
         </div>
+
+        {wallet && (
+            <div className="overlay">
+                <ConnectWallet/>
+            </div>
+        )}
 
     </div>
 
