@@ -1,7 +1,15 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import "./BidForm.css"
+import Tos from '../TOS/Tos'
 
 export default function BidForm() {
+
+    const [tos,setTos] = useState(false)
+    const buttonClick = () => {
+        setTos(true)
+    }
+
   return (
    <div className="fullpage">
    
@@ -76,14 +84,18 @@ export default function BidForm() {
 
         {/* third row */}
         <div className="third-row">
-            <div className="place-button">
+            <div className="place-button" onClick={buttonClick}>
                 <button>Place Bid</button>
             </div>
         </div>
 
 
     </div>
-
+    {tos && (
+        <div className="overlay">
+            <Tos/>
+        </div>
+    )}
     </div>
   )
 }
