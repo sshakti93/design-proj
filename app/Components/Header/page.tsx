@@ -14,7 +14,7 @@ export const Header = () => {
 
     <Link href={"/pages/Searchpage"}>
     <div className="header-searchbar">
-    <img src="/images/search.svg"/>
+    <img src="/images/search.svg" alt='search'/>
       <input placeholder="Search Musicians, artists & more...."/>
       
 
@@ -38,13 +38,13 @@ export const Header = () => {
 
     <div className="header-controlbar">
       <button>0 Collectibles</button>
-      <img src="/images/Ellipse 5.svg"/>
+      <img src="/images/Ellipse 5.svg" alt='user-icon'/>
     </div>
    
    
    
     <div className="header-burger">
-      <img src="/images/menu.svg"/>
+      <img src="/images/menu.svg" alt='menu'/>
     </div>
     </div>
 

@@ -8,13 +8,13 @@ export const Footer = () => {
         <div className='top-footer'>
             <div className='logo-links'>
                 <div className='site-logo-img'>
-                    <img src='/images/site-logo.png'/>
+                    <img src='/images/site-logo.png' alt='logo'/>
                 </div>
                 <div className='links'>
-                    <img src='/images/facebook.svg'/>
-                    <img src='/images/linkedin.svg'/>
-                    <img src='/images/youtube.svg'/>
-                    <img src='/images/instagram.svg'/>
+                    <img src='/images/facebook.svg' alt='fb'/>
+                    <img src='/images/linkedin.svg' alt='linkedin'/>
+                    <img src='/images/youtube.svg' alt='yt'/>
+                    <img src='/images/instagram.svg' alt='instagram'/>
                 </div>
             </div>
             <div className='termsofservice'>
