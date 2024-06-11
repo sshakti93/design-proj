@@ -1,7 +1,16 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import "./HeaderPage.css"
 import Link from 'next/link'
+import Menubar from '@/app/Overlay/Menubar/Menubar'
 export const HeaderPage = () => {
+
+  const [burger,setBurger] = useState(false)
+  const buttonClick = () => {
+    setBurger(!burger)
+
+  }
   return (
     <div>
 
@@ -42,13 +51,17 @@ export const HeaderPage = () => {
     </div>
    
    
-   
-    <div className="header-burger">
-      <img src="/images/menu.svg" alt='menu'/>
+    
+    <div className="header-burger" onClick={buttonClick}>
+      {burger ? <img src='/images/close-img.svg'/> : <img src='/images/menu.svg'/>}
     </div>
     </div>
 
-
+    {burger && (
+        <div className="overlay-menubar">
+            <Menubar/>
+        </div>
+    )}
 
     </div>
   )

@@ -1,0 +1,58 @@
+.fullmenu{
+    display: grid;
+    grid-auto-flow: row;
+   justify-content:left ;
+   background-color: black;
+   padding: 20px;
+   row-gap: 20px;
+   height: 560px;
+}
+
+.logo-close{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  column-gap: 90px;
+  
+}
+.searchbar{
+    display: grid;
+  /* background-color: yellow; */
+  align-content: center;
+  grid-auto-flow: column;
+  background-color: #f7f9fa;
+  border-radius: 100px;
+  padding: 12px 20px;
+  align-self: center;
+  justify-content: left;
+  grid-gap: 12px;   
+}
+
+.searchbar > input{
+  color: #8390A2;
+  background-color: #f7f9fa;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  width: 220px;
+  
+}
+
+.options{
+  display: grid;
+  grid-auto-flow: row;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.button-menu > button{
+  background-color: #FFFFFF;
+  color: #1A79E8 ;
+  border-radius: 50px;
+  width: 125px;
+  height: 40px;
+  
+  outline: none;
+  border: none;
+}
