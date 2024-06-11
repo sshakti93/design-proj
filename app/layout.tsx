@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "./Components/HeaderPage/page";
-import { Footer } from "./Components/FooterPage/Footer";
+import { HeaderPage } from "./Components/HeaderPage/page";
+import { FooterPage } from "./Components/FooterPage/Footer";
 import Home from "./page";
 
 
@@ -27,9 +27,9 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-        <Header/>
+        <HeaderPage/>
         {children}
-        <Footer/>
+        <FooterPage/>
       </body>
       
     </html>
