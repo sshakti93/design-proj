@@ -4,8 +4,8 @@ import "./page.css"
 
 
 
-import { HeaderPage } from "./Components/HeaderPage/page";
-import { FooterPage } from "./Components/FooterPage/Footer";
+import { HeaderPage } from "./Components/HeaderPage/HeaderPage";
+import { FooterPage } from "./Components/FooterPage/FooterPage";
 import Circlearchi from "./pages/CircleArchiTexture/page";
 import Search from "./pages/Searchpage/page";
 import LoadingCollectibles from "./pages/LoadingCollectibles/page";
