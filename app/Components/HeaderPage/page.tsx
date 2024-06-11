@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import Link from 'next/link'
-export const Header = () => {
+export const HeaderPage = () => {
   return (
     <div>
 

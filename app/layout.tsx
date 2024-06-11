@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "./Components/Header/page";
-import { Footer } from "./Components/Footer/Footer";
+import { Header } from "./Components/HeaderPage/page";
+import { Footer } from "./Components/FooterPage/Footer";
 import Home from "./page";
 
 
